@@ -66,15 +66,15 @@ dependencies:
   md5: 09d53abca4f08cf63b9eb88b7175266f
   cf_stacks:
   - cflinuxfs2
-- name: node
-  version: 7.7.3
-  uri: https:///dependencies/node/node-7.7.3-linux-x64-d4b4717f.tgz
-  md5: d4b4717f0d2435c5b534cda0bf4a0f66
-  cf_stacks:
-  - cflinuxfs2
 - name: yarn
   version: 0.22.0
   uri: https:///dependencies/yarn/yarn-v0.22.0-bd0fa300.tar.gz
   md5: bd0fa3000a488d89f75b03efcbd32cec
+  cf_stacks:
+  - cflinuxfs2
+- name: node
+  version: 7.7.3
+  uri: https:///dependencies/node/node-7.7.3-linux-x64-bccf1886.tgz
+  md5: bccf188652638889dbb94e7525333560
   cf_stacks:
   - cflinuxfs2
